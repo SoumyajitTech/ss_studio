@@ -65,6 +65,7 @@ section {
   min-height: 40vh;
 }
 footer{
+    /* display: flex; */
     background-color: #333;
     overflow: hidden;
 }
@@ -74,10 +75,6 @@ footer{
     float: left;
     padding: 10px;
     color: floralwhite;
-}
-.foot:hover{
-    color: gold;
-    text-decoration: underline;
 }
 footer a:hover{
     color: gold;
@@ -95,8 +92,8 @@ nav a:visited{
 }
 footer .fa {
     font-size: 30px;
-    /* color: white; */
-    /* text-align: center; */
+    /* color: white;
+    text-align: center; */
     padding: 5px;
     float: right;
 } 
@@ -133,18 +130,17 @@ footer .fa {
   margin: auto;
   z-index: -1;
 }
-/* cell number */
-/* .carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white; 
-} */
+.profile_id {
+    font-size: 2em;
+    width: 900;
+    letter-spacing: 6px;
+    word-spacing: 4px;
+    margin: 20px 0px 30px 0px;
+    text-transform: uppercase;
+}
 
 @media screen and (max-width: 600px){
-    nav {
+    footer, nav {
         flex-direction: column;
     }
 }
