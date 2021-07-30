@@ -22,7 +22,7 @@ header h1{
     text-align: center;
     font-style:italic;
     font-size: 400%;
-} 
+}
 .handle a{
     /* background-color: white; */
     padding: 1px;
@@ -36,7 +36,7 @@ nav {
     display: flex;
     background-color: #333;
     overflow: hidden;
-    
+
 }
 section h2 span{
     background: linear-gradient(to right, #f5d837, #bbb812);
@@ -80,7 +80,7 @@ nav a{
     text-decoration: none;
     color: white;
     text-align: center;
-    float: left;    
+    float: left;
     padding: 20px;
 }
 h2,h3,h4,h5,h6{
@@ -139,7 +139,7 @@ nav a:hover{
 }
 
 .carousel-cell {
-  width: 66%;
+  width: 80%;
   margin-right: 10px;
 }
 .carousel-cell video {
@@ -190,5 +190,8 @@ nav a:hover{
     section .live_performance{
         flex-direction: column;
         align-self: center;
+    }
+    .carousel-cell {
+        width: 100%;
     }
 }
