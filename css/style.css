@@ -43,6 +43,10 @@ section h2 span{
     border-radius: 10px;
     padding: 10px;
 }
+
+section .live_performance{
+    display: flex;
+}
 nav .subscribe{
     background-color: red;
     color: white;
@@ -175,10 +179,14 @@ nav a:hover{
 }
 
 @media screen and (max-width: 600px){
-    footer,.sm-handle,nav {
+    footer,.sm-handle,nav{
         flex-direction: column;
     }
     nav .subscribe,.handle a{
         margin-left: 0;
+    }
+    section .live_performance{
+        flex-direction: column;
+        align-self: center;
     }
 }
