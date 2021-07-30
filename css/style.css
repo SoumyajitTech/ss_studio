@@ -46,6 +46,8 @@ section h2 span{
 
 section .live_performance{
     display: flex;
+    flex-direction: row;
+    align-self: center;
 }
 nav .subscribe{
     background-color: red;
